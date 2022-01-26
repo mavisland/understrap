@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: understrap\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/understrap\n"
 "POT-Creation-Date: 2021-08-20T00:31:53+00:00\n"
-"PO-Revision-Date: 2021-08-20 02:34+0200\n"
+"PO-Revision-Date: 2022-01-26 22:58+0300\n"
 "Last-Translator: Tanju Yıldız <ben@tanjuyildiz.com>\n"
-"Language-Team: \n"
+"Language-Team: Türkçe\n"
 "Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,7 @@ msgstr ""
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: ..\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
 "X-Poedit-SearchPath-0: footer.php\n"
 "X-Poedit-SearchPath-1: header.php\n"
 "X-Poedit-SearchPath-2: index.php\n"
@@ -43,14 +44,79 @@ msgstr ""
 "X-Poedit-SearchPath-20: page-templates\n"
 "X-Poedit-SearchPath-21: inc\n"
 
-#. Theme Name of the theme
-msgid "Understrap"
-msgstr "Understrap"
+#: inc/template-tags.php:73
+msgid "% Comments"
+msgstr "% Yorum"
 
-#. Theme URI of the theme
-#: inc/hooks.php:40
-msgid "https://understrap.com"
-msgstr "https://understrap.com"
+#: inc/pagination.php:53
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: inc/template-tags.php:171
+msgid "&larr; Older Comments"
+msgstr "&larr; Eski Yorumlar"
+
+#: inc/pagination.php:54
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59 inc/template-tags.php:65
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:73
+msgid "1 Comment"
+msgstr "1 Yorum"
+
+#. translators: %s: author name
+#: author.php:63
+msgid "About %s"
+msgstr "%s hakkında"
+
+#: inc/deprecated.php:83
+msgid "About:"
+msgstr "Hakkında:"
+
+#: inc/class-wp-bootstrap-navwalker.php:376
+msgid "Add a menu"
+msgstr "Menü ekle"
+
+#. translators: %s: author name
+#: author.php:42
+msgctxt "Avatar alt"
+msgid "Profile picture of %s"
+msgstr "%s profil fotoğrafı"
+
+#. Template Name of the theme
+msgid "Blank Page Template"
+msgstr "Boş Sayfa Şablonu"
+
+#: inc/editor.php:60
+msgid "Blockquote"
+msgstr "Alıntı"
+
+#: inc/editor.php:66
+msgid "Blockquote Footer"
+msgstr "Alıntı Alt Bilgisi"
+
+#: sidebar-templates/sidebar-hero.php:36
+msgctxt "carousel control"
+msgid "Next"
+msgstr "Sonraki"
+
+#: sidebar-templates/sidebar-hero.php:28
+msgctxt "carousel control"
+msgid "Previous"
+msgstr "Önceki"
+
+#: inc/customizer.php:85
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr "Bootstrap’ın “container” ve “container-fluid” arasından seçim yapın"
+
+#: inc/editor.php:72
+msgid "Cite"
+msgstr "Bahset"
 
 #. Description of the theme
 msgid ""
@@ -62,338 +128,99 @@ msgid ""
 "file. Just download the .zip, extract it and run \"npm install\" and \"gulp "
 "copy-assets\" inside the extracted /understrap folder."
 msgstr ""
-"Automattic’in _s teması ve Bootstrap 4’ün birleşimi. Bir sonraki tema "
-"projeniz ve WordPress web siteniz için sağlam başlangıç noktası olarak "
-"hazırlandı. Başlangıç teması veya ana tema olarak kullanın. Karar senin. "
-"Basit web siteleri için ihtiyaç duyacağınız Font Awesome desteği, yerleşik "
-"bileşen, slider ve daha fazlasını içerir. ÖNEMLİ: Bu kurulum dosyası, "
-"geliştirici bağımlılıklarının tamamını içermez. .zip dosyasını indirin, "
-"klasöre çıkartın ve klasör içerisinde “npm install” ve “gulp copy-assets” "
-"komutlarını çalıştırın."
+"İşte karşınızda Automattic'in _s teması ve Bootstrap 4 birleşimi. Bir "
+"sonraki tema projeniz ve WordPress web sitesi için sağlam bir başlangıç "
+"noktası olarak hazırlandı. Başlangıç teması veya ana tema olarak kullanın. "
+"Karar sizin. Font Awesome desteği, yerleşik bileşen kaydırıcısı ve temel web "
+"siteleri için ihtiyaç duyduğunuz çok daha fazlası içerisinde. ÖNEMLİ: Tüm "
+"geliştirici bağımlılıkları bu yükleme dosyasıyla birlikte verilmez. Sadece ."
+"zip dosyasını indirin, klasöre çıkartın ve /understrap klasörü içinde \"npm "
+"install\" ve \"gulp copy-assets\" komutunu çalıştırın."
 
-#. Author of the theme
-msgid "the Understrap Authors"
-msgstr ""
+#: inc/template-tags.php:167
+msgid "Comment navigation"
+msgstr "Yorum dolaşımı"
 
-#. Author URI of the theme
-msgid "https://github.com/understrap/understrap/graphs/contributors"
-msgstr "https://github.com/understrap/understrap/graphs/contributors"
-
-#: 404.php:30
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Amanın! O sayfa bulunamadı."
-
-#: 404.php:36
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Burada bir şey bulamadık. Bir de aramayı denemek ister misiniz?"
-
-#: 404.php:46
-msgid "Most Used Categories"
-msgstr "En sık kullanılan kategoriler"
-
-#. translators: %1$s: smiley
-#: 404.php:69
-msgid "Try looking in the monthly archives. %1$s"
-msgstr "Aylık arşivlere bakmayı deneyin. %1$s"
-
-#. translators: %s: author name
-#: author.php:42
-msgctxt "Avatar alt"
-msgid "Profile picture of %s"
-msgstr "%s profil fotoğrafı"
-
-#: author.php:52
-msgid "Website"
-msgstr "İnternet sitesi"
-
-#. translators: %s: author name
-#: author.php:63
-msgid "About %s"
-msgstr "%s hakkında"
-
-#. translators: %s: author name
-#: author.php:77
-msgid "Posts by %s"
-msgstr "%s tarafından yazılan yazılar"
-
-#. translators: %s: post title
-#: comments.php:36
-msgctxt "comments title"
-msgid "One thought on &ldquo;%s&rdquo;"
-msgstr ""
+#: inc/custom-comments.php:102
+msgid "Comments are closed."
+msgstr "Yorumlar kapatıldı."
 
 #. translators: 1: number of comments, 2: post title
 #: comments.php:43
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "&ldquo;%2$s&rdquo; yazısına %1$s yorum yapılmış;"
+msgstr[1] "&ldquo;%2$s&rdquo; yazısına %1$s yorum yapılmış;"
 
-#: header.php:31
-msgid "Skip to content"
-msgstr "İçeriğe geç"
-
-#: header.php:36
-msgid "Main Navigation"
-msgstr ""
-
-#: header.php:63
-msgid "Toggle navigation"
-msgstr ""
-
-#: inc/class-wp-bootstrap-navwalker.php:376
-msgid "Add a menu"
-msgstr ""
-
-#: inc/custom-comments.php:102
-msgid "Comments are closed."
-msgstr "Yorumlar kapatıldı."
-
-#: inc/custom-header.php:54
-msgid "Default Header Image"
-msgstr ""
-
-#: inc/customizer.php:42
-msgid "Theme Layout Settings"
-msgstr "Tema Düzen Ayarları"
-
-#: inc/customizer.php:44
-msgid "Container width and sidebar defaults"
-msgstr "Kapsayıcı genişliği ve kenar çubuğu varsayılanları"
+#. translators: %s: post title
+#: comments.php:36
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; yazısına bir yorum yapılmış;"
 
 #: inc/customizer.php:84
 msgid "Container Width"
 msgstr "Kapsayıcı Genişliği"
 
-#: inc/customizer.php:85
-msgid "Choose between Bootstrap's container and container-fluid"
-msgstr "Bootstrap’ın “container” ve “container-fluid” arasından seçim yapın"
+#: inc/customizer.php:44
+msgid "Container width and sidebar defaults"
+msgstr "Kapsayıcı genişliği ve kenar çubuğu varsayılanları"
 
-#: inc/customizer.php:90
-msgid "Fixed width container"
-msgstr "Sabit genişlikli kapsayıcı"
-
-#: inc/customizer.php:91
-msgid "Full width container"
-msgstr "Tam genişlikli kapsayıcı"
-
-#: inc/customizer.php:113
-msgid "Sidebar Positioning"
-msgstr "Kenar Çubuğu Konumlandırması"
-
-#: inc/customizer.php:114
-msgid ""
-"Set sidebar's default position. Can either be: right, left, both or none. "
-"Note: this can be overridden on individual pages."
-msgstr ""
-
-#: inc/customizer.php:123
-msgid "Right sidebar"
-msgstr "Sağ kenar çubuğu"
-
-#: inc/customizer.php:124
-msgid "Left sidebar"
-msgstr "Sol kenar çubuğu"
-
-#: inc/customizer.php:125
-msgid "Left & Right sidebars"
-msgstr "Sol & Sağ kenar çubukları"
-
-#: inc/customizer.php:126
-msgid "No sidebar"
-msgstr "Kenar çubuğu yok"
-
-#: inc/deprecated.php:80
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links "
-"below or a search?"
-msgstr ""
-
-#: inc/deprecated.php:81
-msgid "Previous"
-msgstr "Önceki"
-
-#: inc/deprecated.php:82
-msgid "Next"
-msgstr ""
-
-#: inc/deprecated.php:83
-msgid "About:"
-msgstr ""
-
-#: inc/deprecated.php:84
-msgid "Profile"
-msgstr ""
-
-#: inc/deprecated.php:85
-msgid "Posts by"
-msgstr ""
-
-#: inc/deprecated.php:86
-msgid "Permanent Link:"
-msgstr ""
-
-#: inc/deprecated.php:87
-msgid "in"
-msgstr ""
+#: inc/custom-header.php:54
+msgid "Default Header Image"
+msgstr "Varsayılan Üstbilgi Görseli"
 
 #: inc/deprecated.php:88
 msgid "Edit"
-msgstr ""
-
-#: inc/editor.php:50
-msgid "Lead Paragraph"
-msgstr ""
-
-#: inc/editor.php:56
-msgctxt "Font size name"
-msgid "Small"
-msgstr ""
-
-#: inc/editor.php:60
-msgid "Blockquote"
-msgstr ""
-
-#: inc/editor.php:66
-msgid "Blockquote Footer"
-msgstr ""
-
-#: inc/editor.php:72
-msgid "Cite"
-msgstr ""
-
-#: inc/extras.php:277
-msgid "Read More..."
-msgstr "Daha fazlasını oku…"
-
-#: inc/hooks.php:30
-msgid "https://wordpress.org/"
-msgstr ""
-
-#. translators: WordPress
-#: inc/hooks.php:33
-msgid "Proudly powered by %s"
-msgstr "%s ile güçlendirilmiştir"
-
-#. translators: 1: Theme name, 2: Theme author
-#: inc/hooks.php:38
-msgid "Theme: %1$s by %2$s."
-msgstr "Tema: %2$s tarafından %1$s."
-
-#. translators: Theme version
-#: inc/hooks.php:44
-msgid "Version: %1$s"
-msgstr "Sürüm: %1$s"
-
-#: inc/pagination.php:53
-msgid "&laquo;"
-msgstr ""
-
-#: inc/pagination.php:54
-msgid "&raquo;"
-msgstr ""
-
-#: inc/pagination.php:57
-msgid "Posts navigation"
-msgstr ""
-
-#: inc/setup.php:49
-msgid "Primary Menu"
-msgstr "Birincil Menü"
-
-#: inc/template-tags.php:33
-msgctxt "post date"
-msgid "Posted on"
-msgstr ""
-
-#: inc/template-tags.php:42
-msgctxt "post author"
-msgid "by"
-msgstr ""
-
-#: inc/template-tags.php:42
-msgctxt "post author"
-msgid "Posted by"
-msgstr ""
-
-#. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:59 inc/template-tags.php:65
-msgid ", "
-msgstr ", "
-
-#. translators: %s: Categories of current post
-#: inc/template-tags.php:62
-msgid "Posted in %s"
-msgstr ""
-
-#. translators: %s: Tags of current post
-#: inc/template-tags.php:68
-msgid "Tagged %s"
-msgstr ""
-
-#: inc/template-tags.php:73
-msgid "Leave a comment"
-msgstr "Yorum yapın"
-
-#: inc/template-tags.php:73
-msgid "1 Comment"
-msgstr "1 Yorum"
-
-#: inc/template-tags.php:73
-msgid "% Comments"
-msgstr "% Yorum"
-
-#: inc/template-tags.php:167
-msgid "Comment navigation"
-msgstr "Yorum dolaşımı"
-
-#: inc/template-tags.php:171
-msgid "&larr; Older Comments"
-msgstr "&larr; Eski Yorumlar"
-
-#: inc/template-tags.php:177
-msgid "Newer Comments &rarr;"
-msgstr "Yeni Yorumlar &rarr;"
+msgstr "Düzenle"
 
 #. translators: %s: Name of current post
 #: inc/template-tags.php:194
 msgid "Edit %s"
-msgstr "%s yazısını düzenle"
+msgstr "%s düzenle"
 
-#: inc/template-tags.php:216
-msgid "Post navigation"
-msgstr "Yazı dolaşımı"
+#. Template Name of the theme
+msgid "Empty Page Template"
+msgstr "Boş Sayfa Şablonu"
 
-#: inc/template-tags.php:220
-msgctxt "Previous post link"
-msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
-msgstr "<i class=“fa fa-angle-left”></i>&nbsp;%title"
+#: inc/customizer.php:90
+msgid "Fixed width container"
+msgstr "Sabit genişlikli kapsayıcı (container)"
 
-#: inc/template-tags.php:223
-msgctxt "Next post link"
-msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
-msgstr "%title&nbsp;<i class=“fa fa-angle-right”></i>"
+#: inc/editor.php:56
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Küçük"
 
-#: inc/template-tags.php:244
-msgid "Pages:"
-msgstr "Sayfalar:"
+#: inc/widgets.php:163
+msgid "Footer Full"
+msgstr "Tam Alt Bölüm"
 
-#: inc/widgets.php:103
-msgid "Right Sidebar"
-msgstr "Sağ Kenar Çubuğu"
-
-#: inc/widgets.php:105
-msgid "Right sidebar widget area"
+#: inc/widgets.php:141
+msgid "Full size canvas hero area for Bootstrap and other custom HTML markup"
 msgstr ""
+"Bootstrap ve diğer özel HTML işaretlemeleri için tam boyutlu tuval alanı"
 
-#: inc/widgets.php:115
-msgid "Left Sidebar"
-msgstr "Sol Kenar Çubuğu"
+#: inc/widgets.php:165
+msgid "Full sized footer widget with dynamic grid"
+msgstr "Dinamik ızgaralı tam genişlikli altbilgi bileşeni"
 
-#: inc/widgets.php:117
-msgid "Left sidebar widget area"
-msgstr ""
+#: inc/widgets.php:153
+msgid "Full top widget with dynamic grid"
+msgstr "Dinamik ızgaralı tam üst bileşeni"
+
+#: inc/customizer.php:91
+msgid "Full width container"
+msgstr "Tam genişlikli kapsayıcı (container-fluid)"
+
+#. Template Name of the theme
+msgid "Full Width Page"
+msgstr "Tam Genişlikli Sayfa"
+
+#: inc/widgets.php:139
+msgid "Hero Canvas"
+msgstr "Tuval Alanı"
 
 #: inc/widgets.php:127
 msgid "Hero Slider"
@@ -402,34 +229,190 @@ msgstr "Manşet Slider"
 #: inc/widgets.php:129
 msgid "Hero slider area. Place two or more widgets here and they will slide!"
 msgstr ""
+"Manşet slider alanı. Buraya iki ya da daha fazla bileşen ekleyin ve kayıp "
+"gitsinler!"
 
-#: inc/widgets.php:139
-msgid "Hero Canvas"
+#. Author URI of the theme
+msgid "https://github.com/understrap/understrap/graphs/contributors"
+msgstr "https://github.com/understrap/understrap/graphs/contributors"
+
+#. Theme URI of the theme
+#: inc/hooks.php:40
+msgid "https://understrap.com"
+msgstr "https://understrap.com"
+
+#: inc/hooks.php:30
+msgid "https://wordpress.org/"
+msgstr "https://tr.wordpress.org/"
+
+#: inc/deprecated.php:87
+msgid "in"
+msgstr "içinde"
+
+#: 404.php:36
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Burada bir şey bulamadık. Bir de aramayı denemek ister misiniz?"
+
+#: inc/deprecated.php:80
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
+"Bu konumda hiçbir şey bulunamadı gibi görünüyor. Belki aşağıdaki "
+"bağlantılardan birini deneyebilirsiniz ya da arama yapabilirsiniz."
 
-#: inc/widgets.php:141
-msgid "Full size canvas hero area for Bootstrap and other custom HTML markup"
+#: loop-templates/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
+"Görünüşe göre aradığınız şeyi bulamıyoruz. Belki de arama yardımcı olabilir."
 
-#: inc/widgets.php:151
-msgid "Top Full"
-msgstr ""
+#: searchform.php:20
+msgctxt "label"
+msgid "Search for:"
+msgstr "Arama:"
 
-#: inc/widgets.php:153
-msgid "Full top widget with dynamic grid"
-msgstr ""
+#: inc/editor.php:50
+msgid "Lead Paragraph"
+msgstr "Manşet Paragraf"
 
-#: inc/widgets.php:163
-msgid "Footer Full"
-msgstr "Tam Alt Bölüm"
+#: inc/template-tags.php:73
+msgid "Leave a comment"
+msgstr "Yorum yapın"
 
-#: inc/widgets.php:165
-msgid "Full sized footer widget with dynamic grid"
-msgstr ""
+#: inc/customizer.php:125
+msgid "Left & Right sidebars"
+msgstr "Sol & Sağ kenar çubukları"
+
+#. Template Name of the theme
+msgid "Left and Right Sidebar Layout"
+msgstr "Sol ve Sağ Kenar Çubuğu Düzeni"
+
+#: inc/widgets.php:115
+msgid "Left Sidebar"
+msgstr "Sol Kenar Çubuğu"
+
+#: inc/customizer.php:124
+msgid "Left sidebar"
+msgstr "Sol kenar çubuğu"
+
+#. Template Name of the theme
+msgid "Left Sidebar Layout"
+msgstr "Sol Kenar Çubuğu Düzeni"
+
+#: inc/widgets.php:117
+msgid "Left sidebar widget area"
+msgstr "Sol kenar çubuğu bileşen alanı"
+
+#: header.php:36
+msgid "Main Navigation"
+msgstr "Ana Menü"
+
+#: 404.php:46
+msgid "Most Used Categories"
+msgstr "En sık kullanılan kategoriler"
+
+#: inc/template-tags.php:177
+msgid "Newer Comments &rarr;"
+msgstr "Yeni Yorumlar &rarr;"
+
+#: inc/deprecated.php:82
+msgid "Next"
+msgstr "Sonraki"
+
+#: inc/template-tags.php:223
+msgctxt "Next post link"
+msgid "%title&nbsp;<i class=\"fa fa-angle-right\"></i>"
+msgstr "%title&nbsp;<i class=“fa fa-angle-right”></i>"
+
+#: inc/customizer.php:126
+msgid "No sidebar"
+msgstr "Kenar çubuğu yok"
 
 #: loop-templates/content-none.php:18
 msgid "Nothing Found"
 msgstr "Hiçbirşey Bulunamadı"
+
+#: 404.php:30
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Amanın! O sayfa bulunamadı."
+
+#: inc/template-tags.php:244
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: inc/deprecated.php:86
+msgid "Permanent Link:"
+msgstr "Kalıcı Bağlantı:"
+
+#: searchform.php:22
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Ara &hellip;"
+
+#: inc/template-tags.php:42
+msgctxt "post author"
+msgid "by"
+msgstr "Yazar:"
+
+#: inc/template-tags.php:42
+msgctxt "post author"
+msgid "Posted by"
+msgstr "Yazar"
+
+#: inc/template-tags.php:33
+msgctxt "post date"
+msgid "Posted on"
+msgstr "Yayın tarihi:"
+
+#: inc/template-tags.php:216
+msgid "Post navigation"
+msgstr "Yazı dolaşımı"
+
+#. translators: %s: Categories of current post
+#: inc/template-tags.php:62
+msgid "Posted in %s"
+msgstr "Kategori: %s"
+
+#: inc/deprecated.php:85
+msgid "Posts by"
+msgstr "tarafından yazılan yazılar"
+
+#. translators: %s: author name
+#: author.php:77
+msgid "Posts by %s"
+msgstr "%s tarafından yazılan yazılar"
+
+#: inc/pagination.php:57
+msgid "Posts navigation"
+msgstr "Yazı dolaşımı"
+
+#: inc/deprecated.php:81
+msgid "Previous"
+msgstr "Önceki"
+
+#: inc/template-tags.php:220
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-angle-left\"></i>&nbsp;%title"
+msgstr "<i class=“fa fa-angle-left”></i>&nbsp;%title"
+
+#: inc/setup.php:49
+msgid "Primary Menu"
+msgstr "Birincil Menü"
+
+#: inc/deprecated.php:84
+msgid "Profile"
+msgstr "Profil"
+
+#. translators: WordPress
+#: inc/hooks.php:33
+msgid "Proudly powered by %s"
+msgstr "%s ile güçlendirilmiştir"
+
+#: inc/extras.php:277
+msgid "Read More..."
+msgstr "Daha fazlasını oku…"
 
 #. translators: 1: Link to WP admin new post page.
 #: loop-templates/content-none.php:30
@@ -439,6 +422,44 @@ msgstr ""
 "İlk yazınızı yayınlamaya hazır mısınız? <a href=\"%1$s\">Buradan başlayın</"
 "a>."
 
+#: inc/widgets.php:103
+msgid "Right Sidebar"
+msgstr "Sağ Kenar Çubuğu"
+
+#: inc/customizer.php:123
+msgid "Right sidebar"
+msgstr "Sağ kenar çubuğu"
+
+#. Template Name of the theme
+msgid "Right Sidebar Layout"
+msgstr "Sağ Kenar Çubuğu Düzeni"
+
+#: inc/widgets.php:105
+msgid "Right sidebar widget area"
+msgstr "Sağ kenar çubuğu bileşen alanı"
+
+#. translators: %s: query term
+#: search.php:36
+msgid "Search Results for: %s"
+msgstr "%s için arama sonuçları"
+
+#: inc/customizer.php:114
+msgid ""
+"Set sidebar's default position. Can either be: right, left, both or none. "
+"Note: this can be overridden on individual pages."
+msgstr ""
+"Kenar çubuğunun varsayılan konumunu ayarlayın. Şunlardan biri olabilir: sağ, "
+"sol, her ikisi veya hiçbiri. Not: Bu ayar her sayfa için geçersiz "
+"kılınabilir."
+
+#: inc/customizer.php:113
+msgid "Sidebar Positioning"
+msgstr "Kenar Çubuğu Konumlandırması"
+
+#: header.php:31
+msgid "Skip to content"
+msgstr "İçeriğe geç"
+
 #: loop-templates/content-none.php:38
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
@@ -447,63 +468,51 @@ msgstr ""
 "Üzgünüz, ancak arama terimlerinizle hiçbir şey eşleşmedi. Lütfen farklı "
 "anahtar kelimelerle tekrar deneyin."
 
-#: loop-templates/content-none.php:46
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-"Görünüşe göre aradığınız şeyi bulamıyoruz. Belki de arama yardımcı olabilir."
-
-#. Template Name of the theme
-msgid "Blank Page Template"
-msgstr "Boş Sayfa Şablonu"
-
-#. Template Name of the theme
-msgid "Left and Right Sidebar Layout"
-msgstr "Sol ve Sağ Kenar Çubuğu Düzeni"
-
-#. Template Name of the theme
-msgid "Empty Page Template"
-msgstr "Boş Sayfa Şablonu"
-
-#. Template Name of the theme
-msgid "Full Width Page"
-msgstr "Tam Genişlikli Sayfa"
-
-#. Template Name of the theme
-msgid "Left Sidebar Layout"
-msgstr "Sol Kenar Çubuğu Düzeni"
-
-#. Template Name of the theme
-msgid "Right Sidebar Layout"
-msgstr ""
-
-#. translators: %s: query term
-#: search.php:36
-msgid "Search Results for: %s"
-msgstr "%s için arama sonuçları"
-
-#: searchform.php:20
-msgctxt "label"
-msgid "Search for:"
-msgstr "Arama:"
-
-#: searchform.php:22
-msgctxt "placeholder"
-msgid "Search &hellip;"
-msgstr "Ara &hellip;"
-
 #: searchform.php:24
 msgctxt "submit button"
 msgid "Search"
 msgstr "Ara"
 
-#: sidebar-templates/sidebar-hero.php:28
-msgctxt "carousel control"
-msgid "Previous"
-msgstr ""
+#. translators: %s: Tags of current post
+#: inc/template-tags.php:68
+msgid "Tagged %s"
+msgstr "Etiketler: %s"
 
-#: sidebar-templates/sidebar-hero.php:36
-msgctxt "carousel control"
-msgid "Next"
-msgstr "İleri"
+#. Author of the theme
+msgid "the Understrap Authors"
+msgstr "Understrap Yaratıcıları"
+
+#: inc/customizer.php:42
+msgid "Theme Layout Settings"
+msgstr "Tema Düzen Ayarları"
+
+#. translators: 1: Theme name, 2: Theme author
+#: inc/hooks.php:38
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %2$s tarafından %1$s."
+
+#: header.php:63
+msgid "Toggle navigation"
+msgstr "Gezinmeyi aç/kapat"
+
+#: inc/widgets.php:151
+msgid "Top Full"
+msgstr "Üst Tam"
+
+#. translators: %1$s: smiley
+#: 404.php:69
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Aylık arşivlere bakmayı deneyin. %1$s"
+
+#. Theme Name of the theme
+msgid "Understrap"
+msgstr "Understrap"
+
+#. translators: Theme version
+#: inc/hooks.php:44
+msgid "Version: %1$s"
+msgstr "Sürüm: %1$s"
+
+#: author.php:52
+msgid "Website"
+msgstr "Web sitesi"
